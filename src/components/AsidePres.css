@@ -1,0 +1,54 @@
+.MainAside {
+  position: absolute;
+  margin-top: 50px;
+  height: 90%;
+  width: 20%;
+  background-color: #d86a39;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+.Name {
+  text-align: center;
+}
+
+.Spec {
+  text-align: center;
+}
+
+.SocialNetworks {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.Contact {
+  margin-top: 25px;
+  text-align: center;
+  color: black;
+}
+
+.ProfilPicture {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ImgProfilPicture {
+  width: 80%;
+  border-radius: 50px;
+  border: solid 2px #fff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+}
+
+hr {
+  width: 80%;
+  color: #fff;
+}

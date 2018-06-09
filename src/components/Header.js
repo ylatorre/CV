@@ -1,9 +1,11 @@
 import React from 'react'
+import AsidePres from './AsidePres'
+import './Header.css'
 
 const Header = () => {
   return (
-    <div>
-      <h1>Edouard de Laage</h1>
+    <div className="Header">
+      <AsidePres />
     </div>
   )
 }

@@ -5,6 +5,7 @@ import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 
 import { Button, Welcome } from '@storybook/react/demo'
+import AsidePres from '../components/AsidePres'
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />)
 
@@ -14,3 +15,6 @@ storiesOf('Button', module)
     <Button onClick={action('clicked')}>
       <span role="img" aria-label="petits bonhommes top 100">😀 😎 👍 💯</span>
     </Button>)
+
+storiesOf('AsidePres', module)
+  .add('Main Aside', () => <AsidePres />)
