@@ -1,0 +1,21 @@
+.Menu {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.MenuList {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 0%;
+}
+
+li {
+  width: 100px;
+}
+
+.LinksMenu {
+  color: #d86a39;
+  text-decoration: none;
+}
+

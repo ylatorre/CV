@@ -1,0 +1,27 @@
+.MySkills,
+.Cv {
+  margin-top: 80px;
+}
+
+.MySkills {
+  margin-top: 80px;
+}
+
+.CvTitle,
+.SkillsTitle {
+  color: #d86a39;
+  margin-top: 0;
+}
+
+.Skils {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  padding-left: 0%;
+}
+
+li {
+  list-style: none;
+}

@@ -1,11 +1,16 @@
 .MainAside {
-  position: absolute;
-  margin-top: 50px;
-  height: 90%;
-  width: 20%;
-  background-color: #d86a39;
-  margin-left: 50px;
-  border-radius: 5px;
+  height: 320px;
+  width: 40%;
+  background-color: rgba(216, 106, 57, 0.7);
+  border-radius: 20px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+
+.MainAsidePicture {
+  width: 30%;
 }
 
 .Name {
@@ -29,18 +34,18 @@
 
 .ProfilPicture {
   text-align: center;
-  margin-top: 25px;
+  padding-top: 25px;
   margin-bottom: 25px;
 }
 
 .ImgProfilPicture {
-  width: 80%;
+  width: 100%;
   border-radius: 50px;
   border: solid 2px #fff;
 }
 
-a {
-  color: white;
+.LinksAside {
+  color: #fff;
   text-decoration: none;
 }
 
