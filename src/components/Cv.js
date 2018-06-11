@@ -4,41 +4,7 @@ import './Cv.css'
 const Cv = () => {
   return (
     <div className="toto">
-      <div id="AboutMe" className="AboutMe">
-        <h2 className="CvTitle">A propos</h2>
-        <p>38 ans / Permis B / Vivant a Paris</p>
-        <p>Passionné, curieux, soif d’apprendre, entrepreneur. Voilà ce qui m’a amené dans le monde du développement web. Après avoir entrepris dans le monde de l’événementiel, j’ai découvert à travers différents projets la puissance de la programmation et tout ce que l’on peut faire avec ces compétences. J’ai donc appris en autodidactes les rudiments (HTML/CSS, PHP) puis j’ai choisi d’entamer une reconversion en me spécialisant sur les technologies Javascript (Node JS / React / Redux). Après une formation intensive de 5 mois, je recherche un stage de 4 mois dans l’objectif d’approfondir mes compétences dans un environnement de production professionnel. Je serais très heureux d’en discuter. Vous pouvez me contacter au 06 07 73 62 26 / edouarddelaage@gmail.com</p>
-      </div>
-      <div id="MySkills" className="MySkills">
-        <h2 className="SkillsTitle">Mes compétences</h2>
-        <div className="Skils">
-          <ul>
-            <h3>Front-End</h3>
-            <li>Html</li>
-            <li>Css</li>
-            <li>React JS</li>
-            <li>Bootstrap</li>
-            <li>Matrial UI / Semantic UI</li>
-          </ul>
-          <ul>
-            <h3>Back-End</h3>
-            <li>Node JS</li>
-            <li>Express</li>
-          </ul>
-          <ul>
-            <h3>Base de données</h3>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-          </ul>
-          <ul>
-            <h3>Outils</h3>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Photoshop</li>
-            <li>Wordpress</li>
-          </ul>
-        </div>
-      </div>
+
       <div id="Cv" className="Cv">
         <h2 className="CvTitle">Cv</h2>
         <h3>Formation developpeur web Javascript A la Wild Code School</h3>

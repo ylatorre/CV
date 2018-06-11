@@ -1,0 +1,20 @@
+.MySkills {
+  margin-top: 80px;
+}
+
+.SkillsTitle {
+  color: #d86a39;
+}
+
+.Skils {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  padding-left: 0%;
+}
+
+li {
+  list-style: none;
+}
