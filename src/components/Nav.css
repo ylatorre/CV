@@ -1,25 +1,94 @@
-.Menu {
+$color-deep-blue: #d86a39;
+
+html,
+body {
+  font-family: sans-serif;
+  height: calc(100% + 150px);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default {
+  background-color: #d86a39;
+}
+
+a {
+  color: #d86a39;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0 10px;
+}
+
+.navbar-default,
+.navbar-nav li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.navbar {
+  border: 0;
+  border-bottom: solid #d86a39;
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1;
+  left: 0;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*
+ * Header
+ */
+
+.header {
+  border: 0;
+  border-bottom: solid #d86a39;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.description {
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.links {
+  margin-top: 25px;
+}
+
+/*
+ * Content
+ */
+
+.content {
   margin-top: 30px;
 }
 
-.MenuList {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-top: 0%;
+h1 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-li {
-  width: 100px;
-}
-
-.LinksMenu {
-  color: #d86a39;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+p {
+  font-size: 18px;
+  line-height: 1.95;
 }
 
