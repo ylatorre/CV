@@ -1,15 +1,47 @@
 import React from 'react'
+import Transition from 'react-transition-group/Transition'
+
 import './Cv.css'
 
-const Cv = () => {
-  return (
-    <div className="toto">
+class Cv extends React.Component {
+  state = {
+    showCV: false
+  }
 
-      <div id="Cv" className="Cv">
-        <h2 className="CvTitle">Cv</h2>
-        <h3>Formation developpeur web Javascript A la Wild Code School</h3>
-        <h4>Node JS / React / Redux</h4>
-        <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+  toogleDiv = () => {
+    const {showCV} = this.state
+    this.setState({ showCV: !showCV })
+  }
+
+  render () {
+    return (
+      <div container className="toto">
+        <div id="Cv" className="Cv">
+          <h2 className="CvTitle">Cv</h2>
+          <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+          <h4>Node JS / React / Redux</h4>
+          <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+          <button onClick={this.toogleDiv}>En savoir plus</button>
+          <br />
+          <Transition in={this.state.showCV} timeout={0}>
+            {
+              (state) => {
+                return (<div className={`subMenu ${state}`}>
+                  {this.state.showCV && <DivCV />}
+                </div>)
+              }
+            }
+          </Transition>
+        </div>
+      </div>
+    )
+  }
+}
+
+class DivCV extends React.Component {
+  render () {
+    return (
+      <div>
         <p>Le déroulement de la formation se décompose en 3 temps :</p>
         <p>1) Création d’un site internet statique / site vitrine responsive <br/>
               (HTML / CSS, Frameworks FRONT-END / Bootstrap / Material Design)</p>
@@ -28,7 +60,7 @@ const Cv = () => {
         <p>Au total et en 5 mois j’aurais créé 3 projets concrets avec l’aide d’un logiciel de version (Git)</p>
         <p>Outre l’apprentissage de ces technologies, nous travaillons en groupe de 5 à 6 personnes. <br/>
               J’ai donc appris à travailler avec une approche Agile et une méthodologie SCRUM :
-          <ul>
+          <ul className="">
             <li>Désignation d’un Scrum Master</li>
             <li>Réalisation d’un Product Backlog</li>
             <li>Planification de Sprint</li>
@@ -36,9 +68,8 @@ const Cv = () => {
             <li>Rétrospective de Sprint.</li>
           </ul>
         </p>
-      </div>
-    </div>
-  )
+      </div>)
+  }
 }
 
 export default Cv
