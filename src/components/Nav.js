@@ -36,8 +36,6 @@ const Header = (props) => (
   </div>
 )
 
-
-
 class Nav2 extends React.Component {
   static defaultProps = {
     bottomBorderWidth: 2,

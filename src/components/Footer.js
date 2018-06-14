@@ -8,6 +8,7 @@ const Footer = () => {
     <div className="Footer">
       <h2>Pour me contacter</h2>
       <FormFooter />
+      <FooterContact />
     </div>
   )
 }

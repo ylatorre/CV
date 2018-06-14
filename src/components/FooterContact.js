@@ -1,8 +1,7 @@
 import React from 'react'
-import './FooterContact.css'
 
 const FooterContact = () => {
-  return(
+  return (
     <div>
       <p>
       Edouard de Laage <br/>
@@ -11,7 +10,7 @@ const FooterContact = () => {
       </p>
       <p>
       +33 06 07 73 62 26
-      <a href="mailto:edouarddelaage@gmail.com">edouarddelaage@gmail.com</a>
+        <a href="mailto:edouarddelaage@gmail.com">edouarddelaage@gmail.com</a>
       </p>
     </div>
   )
