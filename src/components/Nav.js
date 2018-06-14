@@ -10,11 +10,11 @@ const Nav = (props) => {
       <div className="container">
         <div className="collapse navbar-collapse" id="nav-id">
           <ul className="nav navbar-nav navbar-right">
-            <li><a href="AboutMe">A propos</a></li>
-            <li><a href="MySkills">Compétences</a></li>
-            <li><a href="Cv">Cv</a></li>
-            <li><a href="enattente">Ce site</a></li>
-            <li><a href="enattente">Contact</a></li>
+            <li><a href="#AboutMe">A propos</a></li>
+            <li><a href="#MySkills">Compétences</a></li>
+            <li><a href="#Cv">Cv</a></li>
+            <li><a href="#enattente">Ce site</a></li>
+            <li><a href="#enattente">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -24,20 +24,24 @@ const Nav = (props) => {
 
 const Header = (props) => (
   <div className="header" style={{ height: props.height, borderBottomWidth: props.borderBottomWidth }}>
+    <div className="name">Company</div>
+    <div className="description">Bleeding Edge VR Blockchain Solutions</div>
     <div className="links">
-      <a href="AboutMe">A propos</a>
-      <a href="MySkills">Compétences</a>
-      <a href="Cv">Cv</a>
-      <a href="enattente">Ce site</a>
-      <a href="enattente">Contact</a>
+      <a href="#AboutMe">A propos</a>
+      <a href="#MySkills">Compétences</a>
+      <a href="#Cv">Cv</a>
+      <a href="#enattente">Ce site</a>
+      <a href="#enattente">Contact</a>
     </div>
   </div>
 )
 
+
+
 class Nav2 extends React.Component {
   static defaultProps = {
     bottomBorderWidth: 2,
-    headerHeight: 100,
+    headerHeight: 200,
     fadeInDistance: 40
   };
 
