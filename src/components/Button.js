@@ -2,7 +2,7 @@ import React from 'react'
 import './Button.css'
 
 const Button = () => {
-  return(
+  return (
     <div>
       <button>
         Envoyer

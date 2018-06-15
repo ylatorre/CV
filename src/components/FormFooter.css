@@ -1,14 +1,13 @@
-.FormFooter {
-}
-
 form {
   display: flex;
   flex-direction: column;
   text-align: right;
   margin-top: 25px;
+
   /* position: relative; */
   width: 400px;
   height: 200px;
+
   /* background-color: #fff; */
   padding: 30px;
 }
@@ -16,8 +15,9 @@ form {
 label {
   display: block;
   position: relative;
+
   /* top: -20px; */
-  left: 0px;
+  left: 0;
   color: #fff;
   font-size: 16px;
   z-index: 1;
@@ -37,7 +37,8 @@ input {
   margin-bottom: 20px;
 }
 
-input:focus, input:valid {
+input:focus,
+input:valid {
   outline: none;
   border-bottom: 1px solid #fff;
 }

@@ -19,6 +19,4 @@ const FormFooter = props => {
   )
 }
 
-
-
 export default FormFooter

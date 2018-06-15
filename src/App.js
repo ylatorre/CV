@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './App.css'
 
 import Header from './components/Header'
-import Cv from './components/Cv'
 import Footer from './components/Footer'
 import AboutMe from './components/AboutMe'
 import MySkills from './components/MySkills'

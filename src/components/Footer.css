@@ -3,7 +3,7 @@
   background-color: #ff7961;
 }
 
-.FooterTitle{
+.FooterTitle {
   color: #fff;
   background-color: #f44336;
   text-align: center;
@@ -11,7 +11,7 @@
   margin-bottom: 30px;
 }
 
-.BlockFormContact{
+.BlockFormContact {
   display: flex;
   justify-content: flex-end;
 }
