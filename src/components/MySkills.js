@@ -5,7 +5,8 @@ import './MySkills.css'
 const MySkills = () => {
   return (
     <div id="MySkills" className="MySkills">
-      <h2 className="SkillsTitle">Mes compétences</h2>
+      <h2 className="SkillsTitle">Mes compétences à votre service</h2>
+      <h3>Créatif, original et moderne, à l'écoute de vos projets</h3>
       <div className="Skils">
         <ul>
           <h3>Front-End</h3>
