@@ -16,7 +16,6 @@ class App extends Component {
         </div>
         <AboutMe />
         <MySkills />
-        <Cv />
         <Footer />
       </div>
     )

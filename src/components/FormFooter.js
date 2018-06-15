@@ -1,31 +1,24 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
-import TextField from '@material-ui/core/TextField'
+import Button from './Button'
 
-const theme = createMuiTheme({
-  palette: {
-    primary: { main: '#FF9800' }
-  }
-})
+import './FormFooter.css'
 
 const FormFooter = props => {
   return (
-    <div>
-      <MuiThemeProvider theme={theme}>
-        <TextField
-          label="Prénom"
-          id="margin-none"
-          defaultValue="Prénom"
-          className="Firstname"
-        />
-      </MuiThemeProvider>
+    <div className="FormFooter">
+      <form>
+        <label htmlFor="FirstName">Prénom</label>
+        <input type="text" name="FirstName" id="FirstName" className="LastName"/>
+        <label htmlFor="LasName">Nom</label>
+        <input type="text" name="LastName" id="LasName" className="LastName"/>
+        <label htmlFor="Email">Email</label>
+        <input type="email" name="Email" id="Email" className="Email"/>
+        <Button />
+      </form>
     </div>
   )
 }
 
-FormFooter.propTypes = {
-  classes: PropTypes.object.isRequired
-}
+
 
 export default FormFooter

@@ -1,4 +1,18 @@
 .Footer {
-  height: 200px;
-  background-color: #d86a39;
+  height: 450px;
+  background-color: #ff7961;
 }
+
+.FooterTitle{
+  color: #fff;
+  background-color: #f44336;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.BlockFormContact{
+  display: flex;
+  justify-content: flex-end;
+}
+
