@@ -3,7 +3,7 @@ import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
 
 import './LogoSkills.css'
 
-import Bootstrap from '../img/logo/web/Bootstrap.png'
+// import Bootstrap from '../img/logo/web/Bootstrap.png'
 import css3 from '../img/logo/web/css3.png'
 import GitHub from '../img/logo/web/GitHub.png'
 import HTML_CSS from '../img/logo/web/HTML_CSS.png'
@@ -17,7 +17,7 @@ import SemantiUi from '../img/logo/web/SemanticUi.png'
 import Wordpress from '../img/logo/web/Wordpress.png'
 
 const logos = [
-  { src: Bootstrap, alt: 'Bootstrap', title: 'Bootstrap' },
+  // { src: Bootstrap, alt: 'Bootstrap', title: 'Bootstrap' },
   { src: css3, alt: 'css3', title: 'css3' },
   { src: GitHub, alt: 'GitHub', title: 'GitHub' },
   { src: HTML_CSS, alt: 'HTML_CSS', title: 'HTML_CSS' },
