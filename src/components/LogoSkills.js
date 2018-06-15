@@ -3,21 +3,21 @@ import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
 
 import './LogoSkills.css'
 
-// import Bootstrap from '../img/logo/web/Bootstrap.png'
-import css3 from '../img/logo/web/css3.png'
-import GitHub from '../img/logo/web/GitHub.png'
-import HTML_CSS from '../img/logo/web/HTML_CSS.png'
-import Javascript from '../img/logo/web/Javascript.png'
-import MaterialUi from '../img/logo/web/MaterialUi.png'
-import MySQL from '../img/logo/web/MySQL.png'
-import NodeJs from '../img/logo/web/NodeJs.png'
-import ReactLogo from '../img/logo/web/ReactLogo.png'
-import Redux from '../img/logo/web/Redux.png'
-import SemantiUi from '../img/logo/web/SemanticUi.png'
-import Wordpress from '../img/logo/web/Wordpress.png'
+import Bootstrap from './logo/web/Bootstrap.png'
+import css3 from './logo/web/css3.png'
+import GitHub from './logo/web/GitHub.png'
+import HTML_CSS from './logo/web/HTML_CSS.png'
+import Javascript from './logo/web/Javascript.png'
+import MaterialUi from './logo/web/MaterialUi.png'
+import MySQL from './logo/web/MySQL.png'
+import NodeJs from './logo/web/NodeJs.png'
+import ReactLogo from './logo/web/ReactLogo.png'
+import Redux from './logo/web/Redux.png'
+import SemantiUi from './logo/web/SemanticUi.png'
+import Wordpress from './logo/web/Wordpress.png'
 
 const logos = [
-  // { src: Bootstrap, alt: 'Bootstrap', title: 'Bootstrap' },
+  { src: Bootstrap, alt: 'Bootstrap', title: 'Bootstrap' },
   { src: css3, alt: 'css3', title: 'css3' },
   { src: GitHub, alt: 'GitHub', title: 'GitHub' },
   { src: HTML_CSS, alt: 'HTML_CSS', title: 'HTML_CSS' },
