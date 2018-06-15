@@ -1,0 +1,11 @@
+.EndFooter {
+  height: 450px;
+  background-color: #ff7961;
+}
+
+.BlockFooter {
+  color: #fff;
+  background-color: #f44336;
+  text-align: center;
+  margin: 0;
+}

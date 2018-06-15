@@ -3,12 +3,8 @@ form {
   flex-direction: column;
   text-align: right;
   margin-top: 25px;
-
-  /* position: relative; */
   width: 400px;
   height: 200px;
-
-  /* background-color: #fff; */
   padding: 30px;
 }
 
@@ -27,8 +23,9 @@ label {
 input {
   display: block;
   position: relative;
-  background: none;
+  background-color: #f44336;
   border: none;
+  border-radius: 5px;
   border-bottom: 1px solid #fff;
   color: #fff;
   width: 100%;
