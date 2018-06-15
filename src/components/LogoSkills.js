@@ -8,12 +8,12 @@ import css3 from '../img/logo/web/css3.png'
 import GitHub from '../img/logo/web/GitHub.png'
 import HTML_CSS from '../img/logo/web/HTML_CSS.png'
 import Javascript from '../img/logo/web/Javascript.png'
-import Material_ui from '../img/logo/web/Material_ui.png'
+import MaterialUi from '../img/logo/web/MaterialUi.png'
 import MySQL from '../img/logo/web/MySQL.png'
-import Node_JS from '../img/logo/web/Node_JS.png'
-import React_Logo from '../img/logo/web/React_Logo.png'
+import NodeJs from '../img/logo/web/NodeJs.png'
+import ReactLogo from '../img/logo/web/ReactLogo.png'
 import Redux from '../img/logo/web/Redux.png'
-import Semantic_UI from '../img/logo/web/Semantic_UI.png'
+import SemantiUi from '../img/logo/web/SemanticUi.png'
 import Wordpress from '../img/logo/web/Wordpress.png'
 
 const logos = [
@@ -22,12 +22,12 @@ const logos = [
   { src: GitHub, alt: 'GitHub', title: 'GitHub' },
   { src: HTML_CSS, alt: 'HTML_CSS', title: 'HTML_CSS' },
   { src: Javascript, alt: 'Javascript', title: 'Javascript' },
-  { src: Material_ui, alt: 'Material_ui', title: 'Material_ui' },
+  { src: MaterialUi, alt: 'MaterialUi', title: 'MaterialUi' },
   { src: MySQL, alt: 'MySQL', title: 'MySQL' },
-  { src: Node_JS, alt: 'Node_JS', title: 'Node_JS' },
-  { src: React_Logo, alt: 'React_Logo', title: 'React_Logo' },
+  { src: NodeJs, alt: 'NodeJs', title: 'NodeJs' },
+  { src: ReactLogo, alt: 'ReactLogo', title: 'ReactLogo' },
   { src: Redux, alt: 'Redux', title: 'Redux' },
-  { src: Semantic_UI, alt: 'Semantic_UI', title: 'Semantic_UI' },
+  { src: SemantiUi, alt: 'SemantiUi', title: 'SemantiUi' },
   { src: Wordpress, alt: 'Wordpress', title: 'Wordpress' }
 ]
 
