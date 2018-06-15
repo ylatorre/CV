@@ -1,0 +1,21 @@
+.logo-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.MySkills{
+  text-align: center;
+}
+
+
+
+.skills_logo img {
+  max-width: 10em;
+  max-height: 6.25em;
+  margin-bottom: 50px;
+}
+
+
+/* max-width: 5.625em;
+  max-height: 6.25em; */
