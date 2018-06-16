@@ -1,11 +1,7 @@
 .BlockFooter {
-  background-color: #a93737;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.BlockFooter {
   height: 50px;
   color: #fff;
   background-color: #a93737;
