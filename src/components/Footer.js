@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <div className="Footer" id="Contact">
       <Grid container spacing={0}>
         <Grid item xs={12} className="FooterTitle">
           <div>

@@ -13,6 +13,8 @@ const FormFooter = props => {
         <input type="text" name="LastName" id="LasName" className="LastName"/>
         <label htmlFor="Email">Email</label>
         <input type="email" name="Email" id="Email" className="Email"/>
+        <label htmlFor="Email">Votre demande</label>
+        <textarea name="Desciption" id="Desciption" className="Desciption" rows="50"/>
         <Button />
       </form>
     </div>

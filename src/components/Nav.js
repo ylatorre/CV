@@ -13,8 +13,8 @@ const Nav = (props) => {
             <li><a href="#AboutMe">A propos</a></li>
             <li><a href="#MySkills">Compétences</a></li>
             <li><a href="#Cv">Cv</a></li>
-            <li><a href="#enattente">Ce site</a></li>
-            <li><a href="#enattente">Contact</a></li>
+            <li><a href="#CeSite">Ce site</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -30,8 +30,8 @@ const Header = (props) => (
       <a href="#AboutMe">A propos</a>
       <a href="#MySkills">Compétences</a>
       <a href="#Cv">Cv</a>
-      <a href="#enattente">Ce site</a>
-      <a href="#enattente">Contact</a>
+      <a href="#CeSite">Ce site</a>
+      <a href="#Contact">Contact</a>
     </div>
   </div>
 )

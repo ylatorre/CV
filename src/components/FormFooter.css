@@ -4,7 +4,7 @@ form {
   text-align: right;
   margin-top: 25px;
   width: 400px;
-  height: 200px;
+  height: 400px;
   padding: 30px;
 }
 
@@ -19,7 +19,7 @@ label {
   transition: all 0.3s ease;
 }
 
-input {
+input, textarea {
   display: block;
   position: relative;
   background-color: #fff;
@@ -30,12 +30,16 @@ input {
   font-size: 16px;
   z-index: 2;
   margin-bottom: 20px;
-  height: 30px;
 }
+
 
 input:focus,
 input:valid {
   outline: none;
   border-bottom: 1px solid #a93737;
+}
+
+textarea {
+  outline: none;
 }
 
