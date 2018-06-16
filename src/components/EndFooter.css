@@ -1,11 +1,19 @@
-.EndFooter {
-  height: 450px;
-  background-color: #ff7961;
+.BlockFooter {
+  background-color: #a93737;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .BlockFooter {
+  height: 50px;
   color: #fff;
-  background-color: #f44336;
+  background-color: #a93737;
   text-align: center;
   margin: 0;
+}
+
+.BlockFooter p {
+  font-size: 0.8em;
+  margin-bottom: 0;
 }

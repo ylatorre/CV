@@ -25,7 +25,7 @@ const AsidePres = () => {
         </div>
         <hr/>
         <div className="Contact">
-          <p className="LinksAside">06 82 50 35 68 </p>
+          <p className="LinksAside">06 07 73 62 26</p>
           <p><a className="LinksAside" href="mailto:edouarddelaage@gmail.com"> edouarddelaage@gmail.com</a></p>
         </div>
       </div>

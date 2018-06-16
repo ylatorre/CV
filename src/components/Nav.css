@@ -1,4 +1,4 @@
-$color-deep-blue: #f44336;
+$color-deep-blue: #a93737;
 
 html,
 body {
@@ -9,14 +9,15 @@ body {
 }
 
 .navbar-default {
-  background-color: #f44336;
+  background-color: #a93737;
 }
 
 a {
-  color: #f44336;
+  color: #a93737;
   font-size: 20px;
   font-weight: lighter;
   margin: 0 10px;
+  text-decoration: none;
 }
 
 .navbar-default,
@@ -26,9 +27,13 @@ a {
   font-weight: lighter;
 }
 
+li {
+  list-style: none;
+}
+
 .navbar {
   border: 0;
-  border-bottom: solid #f44336;
+  border-bottom: solid #a93737;
   position: fixed;
   top: 0;
   width: 100%;
@@ -53,7 +58,7 @@ a {
 
 .header {
   border: 0;
-  border-bottom: solid #f44336;
+  border-bottom: solid #a93737;
   display: inline-block;
   text-align: center;
   width: 100%;

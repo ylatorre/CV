@@ -12,8 +12,7 @@ const FooterContact = () => {
         </p>
       </div>
       <div className="FooterTel">
-        <p>
-        +33 06 07 73 62 26 <br/>
+        <p>+33 06 07 73 62 26 <br/>
           <a href="mailto:edouarddelaage@gmail.com">edouarddelaage@gmail.com</a>
         </p>
       </div>
