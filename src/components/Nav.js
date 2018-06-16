@@ -24,8 +24,8 @@ const Nav = (props) => {
 
 const Header = (props) => (
   <div className="header" style={{ height: props.height, borderBottomWidth: props.borderBottomWidth }}>
-    <div className="name">Company</div>
-    <div className="description">Bleeding Edge VR Blockchain Solutions</div>
+    <div className="name">Une passion...</div>
+    <div className="description">Coder vos idées</div>
     <div className="links">
       <a href="#AboutMe">A propos</a>
       <a href="#MySkills">Compétences</a>
