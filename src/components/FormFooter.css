@@ -19,7 +19,8 @@ label {
   transition: all 0.3s ease;
 }
 
-input, textarea {
+input,
+textarea {
   display: block;
   position: relative;
   background-color: #fff;
@@ -31,7 +32,6 @@ input, textarea {
   z-index: 2;
   margin-bottom: 20px;
 }
-
 
 input:focus,
 input:valid {
