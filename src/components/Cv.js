@@ -26,6 +26,42 @@ class Cv extends React.Component {
             <h3>Formation developpeur web Javascript A la Wild Code School</h3>
             <h4>Node JS / React / Redux</h4>
             <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
             <button onClick={this.toogleDiv}>En savoir plus</button>
             <br />
             <Transition in={this.state.showCV} timeout={0}>
