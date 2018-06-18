@@ -1,0 +1,26 @@
+.CeSite {
+  top: 80px;
+  margin: auto;
+  margin-bottom: 80px;
+  background: url('../../src/img/pc-1207886_1920.jpg') no-repeat center fixed;
+  height: 300px;
+}
+
+.ParaCeSite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.TitleCeSite {
+  color: #fff;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.CeSite p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
