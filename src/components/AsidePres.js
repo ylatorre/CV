@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../node_modules/font-awesome/css/font-awesome.min.css'
 import './AsidePres.css'
 import profilpicture from '../img/profilpicture.jpg'
 
@@ -20,8 +21,8 @@ const AsidePres = () => {
         </div>
         <hr/>
         <div className="SocialNetworks">
-          <p><a className="LinksAside" href="https://www.linkedin.com/in/edouard-de-laage-4711818/">Linkedin</a></p>
-          <p><a className="LinksAside" href="https://github.com/eddelaage">Github</a></p>
+          <a className="fa fa-linkedin LinksAside" href="https://www.linkedin.com/in/edouard-de-laage-4711818/"></a>
+          <a className="fa fa-github LinksAside" href="https://github.com/eddelaage"></a>
         </div>
         <hr/>
         <div className="Contact">
