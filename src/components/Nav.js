@@ -11,7 +11,7 @@ const Nav = (props) => {
       <div className="container">
         <div className="collapse navbar-collapse" id="nav-id">
           <ul className="nav navbar-nav navbar-right">
-            <li><Link to="/">Acceuil</Link></li>
+            <li><Link to="/#Header">Acceuil</Link></li>
             <li><Link to="/#AboutMe">A Propos</Link></li>
             <li><Link to="/#MySkills">Compétences</Link></li>
             <li><Link to="/cv">Cv</Link></li>
