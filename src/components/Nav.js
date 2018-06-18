@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 const Nav = (props) => {
@@ -10,9 +11,10 @@ const Nav = (props) => {
       <div className="container">
         <div className="collapse navbar-collapse" id="nav-id">
           <ul className="nav navbar-nav navbar-right">
+            <li><Link to="/">Acceuil</Link></li>
             <li><a href="#AboutMe">A propos</a></li>
             <li><a href="#MySkills">Compétences</a></li>
-            <li><a href="#Cv">Cv</a></li>
+            <li><Link to="/cv">Cv</Link></li>
             <li><a href="#CeSite">Ce site</a></li>
             <li><a href="#Contact">Contact</a></li>
           </ul>
@@ -27,9 +29,10 @@ const Header = (props) => (
     <div className="name">Une passion...</div>
     <div className="description">Coder vos idées</div>
     <div className="links">
+      <Link to="/">Acceuil</Link>
       <a href="#AboutMe">A propos</a>
       <a href="#MySkills">Compétences</a>
-      <a href="#Cv">Cv</a>
+      <Link to="/cv">Cv</Link>
       <a href="#CeSite">Ce site</a>
       <a href="#Contact">Contact</a>
     </div>

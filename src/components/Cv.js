@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from './Nav'
 import Transition from 'react-transition-group/Transition'
 
 import './Cv.css'
@@ -15,23 +16,28 @@ class Cv extends React.Component {
 
   render () {
     return (
-      <div container className="toto">
-        <div id="Cv" className="Cv">
-          <h2 className="CvTitle">Cv</h2>
-          <h3>Formation developpeur web Javascript A la Wild Code School</h3>
-          <h4>Node JS / React / Redux</h4>
-          <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
-          <button onClick={this.toogleDiv}>En savoir plus</button>
-          <br />
-          <Transition in={this.state.showCV} timeout={0}>
-            {
-              (state) => {
-                return (<div className={`subMenu ${state}`}>
-                  {this.state.showCV && <DivCV />}
-                </div>)
+      <div>
+        <div>
+          <Nav />
+        </div>
+        <div container className="toto">
+          <div id="Cv" className="Cv">
+            <h2 className="CvTitle">Cv</h2>
+            <h3>Formation developpeur web Javascript A la Wild Code School</h3>
+            <h4>Node JS / React / Redux</h4>
+            <p>La Wild Code School vise à former au métier de développeur web. Spécialisation Javascript React / Node JS en 5 mois.</p>
+            <button onClick={this.toogleDiv}>En savoir plus</button>
+            <br />
+            <Transition in={this.state.showCV} timeout={0}>
+              {
+                (state) => {
+                  return (<div className={`subMenu ${state}`}>
+                    {this.state.showCV && <DivCV />}
+                  </div>)
+                }
               }
-            }
-          </Transition>
+            </Transition>
+          </div>
         </div>
       </div>
     )
