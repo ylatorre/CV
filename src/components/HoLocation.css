@@ -2,11 +2,16 @@
   margin-top: 80px;
 }
 
-.HoLocation {
-  width: 80%;
-  margin: auto;
+.ImgTente {
+  width: 100%;
+  height: auto;
 }
 
-ul {
-  font-size: 18px;
+.DescHoLoc {
+  padding-left: 50px;
+}
+
+.HoTitle {
+  color: #db5757;
+  margin: 0;
 }

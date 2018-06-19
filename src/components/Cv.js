@@ -1,6 +1,7 @@
 import React from 'react'
 import WildCodeSchool from './WildCodeSchool'
 import HoLocation from './HoLocation'
+import Kdovino from './Kdovino'
 import Nav from './Nav'
 
 const Cv = () => {
@@ -9,6 +10,7 @@ const Cv = () => {
       <Nav />
       <WildCodeSchool />
       <HoLocation />
+      <Kdovino />
     </div>
   )
 }

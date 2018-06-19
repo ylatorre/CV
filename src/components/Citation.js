@@ -8,8 +8,7 @@ const Citation = () => {
         <h2 className="TitleCeSite">J'adore créer des sites internet, les faire évoluer et les maintenir</h2>
         <div>
         </div>
-        <p>J'adore créer des sites internet, les faire évoluer et les maintenir
-        Vous avez un projet de création de site ou de refonte de votre site existant ?</p>
+        <p>Vous avez un projet de création de site ou de refonte de votre site existant ?</p>
       </div>
     </div>
   )
