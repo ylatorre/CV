@@ -1,15 +1,11 @@
-.Kdovino {
-  margin-top: 80px;
-}
-
 .Kdo {
   width: 100%;
   margin: auto;
 }
 
-.DescKdovi {
-  display: flex;
-  justify-content: space-around;
+.DescKdo {
+  text-align: right;
+  padding-right: 50px;
 }
 
 .ImgKdo {

@@ -13,7 +13,7 @@ const HoLocation = () => {
         <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="DescHoLoc">
           <div className="Ho">
             <p>Juin 2010 - Décembre 2017</p>
-            <h2 className="HoTitle">Gérant de la société   H.O. Location</h2>
+            <h2 className="HoTitle">Gérant de la société H.O. Location</h2>
             <h3>Entreprise de location de tentes et matériel   évènementiel composé de 4 salariés CDI.</h3>
           </div>
           <div>
