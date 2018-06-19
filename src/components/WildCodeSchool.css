@@ -1,8 +1,10 @@
 .Wcs {
   margin-top: 80px;
+  text-align: center;
 }
 
-.WildCodeSchool {
+.WildCodeSchool,
+.EndWcs {
   width: 80%;
   margin: auto;
 }
@@ -12,21 +14,19 @@
   margin: 0;
 }
 
+.DeroulFormation {
+  text-align: center;
+}
+
 p {
   margin: 0;
 }
 
 h3 {
-  margin: 0 0 20px 0;
-}
-
-.DeroulementFormation {
-  display: flex;
-  justify-content: space-between;
+  margin: 20px 0 20px 0;
 }
 
 .Project {
-  width: 33.33%;
   padding: 20px;
 }
 
