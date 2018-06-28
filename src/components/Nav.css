@@ -8,12 +8,17 @@ body {
   padding: 0;
 }
 
+.name,
+.description {
+  color: #fff;
+}
+
 .navbar-default {
   background-color: #a93737;
 }
 
 a {
-  color: #a93737;
+  color: #fff;
   font-size: 20px;
   font-weight: lighter;
   margin: 0 10px;
@@ -58,7 +63,7 @@ li {
 
 .header {
   border: 0;
-  border-bottom: solid #a93737;
+  border-bottom: solid #fff;
   display: inline-block;
   text-align: center;
   width: 100%;

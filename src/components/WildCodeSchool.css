@@ -1,3 +1,8 @@
+.BlockWildCodeSchool {
+  padding-top: 80px;
+  background-color: #e2e2e2;
+}
+
 .Wcs {
   margin-top: 80px;
   text-align: center;
@@ -16,6 +21,7 @@
 
 .DeroulFormation {
   text-align: center;
+  margin-top: 50px;
 }
 
 p {
@@ -26,11 +32,47 @@ h3 {
   margin: 20px 0 20px 0;
 }
 
-.Project {
-  padding: 20px;
-}
-
 h4 {
+  color: #db5757;
+  text-align: center;
   font-size: 1.2em;
 }
 
+.Project {
+  border: solid 1px #d4d4d4;
+  border-radius: 3px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  height: auto;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 1em;
+}
+
+.Project_3 {
+  padding: 0;
+}
+
+.Project_1,
+.Project_2,
+.Project_3 {
+  width: 400px;
+}
+
+p.ParaProject {
+  font-size: 0.9em;
+}
+
+.ThreeProjects {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.EndWcs {
+  width: 80%;
+  padding-left: 54px;
+  padding-bottom: 80px;
+}
