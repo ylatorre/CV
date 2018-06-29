@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import Header from './Header'
 import Footer from './Footer'
+import CitationPres from './CitationPres'
 import AboutMe from './AboutMe'
 import Citation from './Citation'
 import MySkills from './MySkills'
@@ -18,6 +19,7 @@ class Home extends Component {
             <Header />
           </div>
         </div>
+        <CitationPres />
         <AboutMe />
         <MySkills />
         <Citation />
