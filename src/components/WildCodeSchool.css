@@ -94,6 +94,10 @@ p.ParaProject {
   font-size: 1em;
 }
 
+.ContainerRecap ul {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 1700px) {
   .ContainerProject {
     display: flex;
