@@ -1,11 +1,22 @@
 form {
   display: flex;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
   margin-top: 25px;
-  width: 400px;
-  height: 400px;
-  padding: 30px;
+  height: 250px;
+}
+
+.ContainerFormFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ContainerInput {
+  margin-right: 50px;
+}
+
+.Description {
+  height: 150px;
 }
 
 label {
@@ -14,9 +25,19 @@ label {
   left: 0;
   color: #db5757;
   font-size: 16px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 20px;
   z-index: 1;
   transition: all 0.3s ease;
+}
+
+input {
+  width: 300px;
+}
+
+textarea {
+  width: 300px;
+  outline: none;
 }
 
 input,
@@ -27,10 +48,8 @@ textarea {
   border: none;
   border-radius: 5px;
   border-bottom: 1px solid #a93737;
-  width: 100%;
   font-size: 16px;
   z-index: 2;
-  margin-bottom: 20px;
 }
 
 input:focus,
@@ -39,7 +58,31 @@ input:valid {
   border-bottom: 1px solid #a93737;
 }
 
-textarea {
-  outline: none;
+button {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 970px) {
+  .ContainerFormFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ContainerInput {
+    margin-right: 0;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  label {
+    padding-top: 5px;
+  }
 }
 

@@ -1,17 +1,47 @@
-.HoLoc {
-  margin-top: 80px;
+.ContainerHo {
+  display: flex;
 }
 
-.ImgTente {
-  width: 100%;
-  height: auto;
+.ContainerImg {
+  width: 50%;
+  padding-top: 0;
+  background: url('../img/woncerts-1150042_1920.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
 }
 
-.DescHoLoc {
-  padding-left: 50px;
+.ContainerDesc {
+  width: 50%;
+  padding-top: 0;
+}
+
+.ContentHo {
+  padding-left: 20px;
 }
 
 .HoTitle {
   color: #db5757;
   margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .ContainerHo {
+    flex-direction: column-reverse;
+    display: flex;
+    padding-top: 80px;
+  }
+
+  .ContainerImg {
+    width: 100%;
+    padding-top: 0;
+    background: url('../img/woncerts-1150042_1920.jpg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+  }
+
+  .ContainerDesc {
+    width: 100%;
+    padding-top: 0;
+  }
 }

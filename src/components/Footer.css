@@ -1,18 +1,64 @@
 .Footer {
-  height: 600px;
+  height: 400px;
   background-color: #e2e2e2;
 }
 
 .FooterTitle {
   color: #db5757;
+  height: 50px;
+  line-height: 50px;
   background-color: #dcdcdc;
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.BlockFormContact {
-  display: flex;
-  justify-content: flex-end;
+.FooterTitle h2 {
+  margin: 0;
 }
 
+.ContainerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContainerFormContact {
+  width: 660px;
+}
+
+.ContainerContact {
+  height: 239px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.ContainerContact a {
+  color: #db5757;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 970px) {
+  .Footer {
+    height: 700px;
+  }
+
+  .ContainerFooter {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .ContainerContact {
+    height: 239px;
+    padding-top: 150px;
+    padding-left: 0;
+    align-self: flex-start;
+  }
+
+  .ContainerFormContact {
+    width: 100%;
+  }
+}

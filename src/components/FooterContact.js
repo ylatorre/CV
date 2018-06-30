@@ -1,5 +1,4 @@
 import React from 'react'
-import './FooterContact.css'
 
 const FooterContact = () => {
   return (

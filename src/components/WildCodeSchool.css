@@ -1,29 +1,3 @@
-.BlockWildCodeSchool {
-  padding-top: 80px;
-  background-color: #e2e2e2;
-}
-
-.Wcs {
-  margin-top: 80px;
-  text-align: center;
-}
-
-.WildCodeSchool,
-.EndWcs {
-  width: 80%;
-  margin: auto;
-}
-
-.WCSTitle {
-  color: #db5757;
-  margin: 0;
-}
-
-.DeroulFormation {
-  text-align: center;
-  margin-top: 50px;
-}
-
 p {
   margin: 0;
 }
@@ -36,6 +10,39 @@ h4 {
   color: #db5757;
   text-align: center;
   font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.ContainerWildCodeSchool {
+  background-color: #e2e2e2;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.ContainerTitle {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.WCSTitle {
+  color: #db5757;
+  margin: 0;
+}
+
+.ContainerFormation {
+  margin-top: 0;
+}
+
+.ContainerProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .Project {
@@ -48,6 +55,10 @@ h4 {
   font-size: 1em;
 }
 
+.ContainerProject h4 {
+  margin-top: 0;
+}
+
 .Project_3 {
   padding: 0;
 }
@@ -56,23 +67,87 @@ h4 {
 .Project_2,
 .Project_3 {
   width: 400px;
+  text-align: left;
 }
 
 p.ParaProject {
   font-size: 0.9em;
 }
 
-.ThreeProjects {
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-  width: 80%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.DescProject {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 0.9em;
 }
 
-.EndWcs {
+.ContainerRecap {
   width: 80%;
-  padding-left: 54px;
-  padding-bottom: 80px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: left;
+  padding-left: 20px;
+  border: solid 1px #d4d4d4;
+  border-radius: 3px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  height: auto;
+  background-color: #fff;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 1700px) {
+  .ContainerProject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .Project {
+    border: solid 1px #d4d4d4;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    height: auto;
+    background-color: #fff;
+    font-size: 1em;
+  }
+
+  .Project_1,
+  .Project_2,
+  .Project_3 {
+    width: 300px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ContainerProject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .Project {
+    border: solid 1px #d4d4d4;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    height: auto;
+    background-color: #fff;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Project_1,
+  .Project_2,
+  .Project_3 {
+    width: 100%;
+    text-align: left;
+  }
 }

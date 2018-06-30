@@ -101,3 +101,29 @@ p {
   font-size: 18px;
   line-height: 1.95;
 }
+
+@media screen and (max-width: 400px) {
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 35px;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-top: 3px;
+  }
+
+  a {
+    font-size: 13px;
+  }
+
+  .navbar-default,
+  .navbar-nav li a {
+    font-size: 13px;
+  }
+
+  .navbar-right {
+    padding-left: 0;
+  }
+}

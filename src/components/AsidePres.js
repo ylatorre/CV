@@ -6,6 +6,7 @@ import profilpicture from '../img/profilpicture.jpg'
 const AsidePres = () => {
   return (
     <div className="MainAside">
+
       <div className="MainAsidePicture">
         <div className="ProfilPicture">
           <img className="ImgProfilPicture" src={profilpicture} alt="profilpicture"/>
@@ -14,22 +15,22 @@ const AsidePres = () => {
           <h1>Edouard de Laage</h1>
         </div>
       </div>
+
       <div className="MainAsideDesciption">
         <div className="Spec">
           <h2>Developpeur Web</h2>
           <p>Javascript / Node JS / React</p>
         </div>
-        <hr/>
         <div className="SocialNetworks">
           <a className="fa fa-linkedin LinksAside" href="https://www.linkedin.com/in/edouard-de-laage-4711818/"></a>
           <a className="fa fa-github LinksAside" href="https://github.com/eddelaage"></a>
         </div>
-        <hr/>
         <div className="Contact">
           <p className="LinksAside">06 07 73 62 26</p>
           <p><a className="LinksAside" href="mailto:edouarddelaage@gmail.com"> edouarddelaage@gmail.com</a></p>
         </div>
       </div>
+
     </div>
   )
 }
