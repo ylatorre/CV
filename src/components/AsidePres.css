@@ -79,7 +79,7 @@ hr {
   margin: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
   .MainAside {
     height: 35%;
     width: 70%;
