@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 668px) {
 
-   .Header .background_img {
+   .CeSite {
     background-attachment: scroll !important;
   }
 }

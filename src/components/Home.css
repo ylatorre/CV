@@ -2,7 +2,7 @@
   background: url('../../src/img/laptop-iphone-notebook-computer-macbook-work-1046491-pxhere.com.jpg') no-repeat center fixed;
   background-size: cover;
   width: 100%;
-  height: auto;
+
   margin: 0;
   padding: 0;
   min-width: 100%;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 668px) {
 
-   .Header .background_img {
+   .background_img {
     background-attachment: scroll !important;
   }
 
