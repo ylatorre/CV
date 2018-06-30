@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 668px) {
 
-  .background_img {
+   .Header .background_img {
     background-attachment: scroll !important;
   }
 

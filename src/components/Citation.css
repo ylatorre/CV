@@ -103,3 +103,10 @@
     font-size: 25px;
   }
 }
+
+@media screen and (max-width: 668px) {
+
+   .Header .background_img {
+    background-attachment: scroll !important;
+  }
+}

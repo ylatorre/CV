@@ -12,7 +12,7 @@ import Nav from './Nav'
 class Home extends Component {
   render () {
     return (
-      <div id="Header">
+      <div className="Header" id="Header">
         <div>
           <div className="background_img">
             <Nav />
