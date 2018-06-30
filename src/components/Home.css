@@ -20,19 +20,24 @@
 
 @media screen and (max-width: 414px) {
 
-  body:after{
+  .background_img {
+    background-attachment: scroll !important;
+  }
+
+  /*body:after{
     content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
+    position:fixed;
     top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    height:100vh;
     left:0;
     right:0;
-    z-index:-1; /* needed to keep in the background */
+    z-index:-1;
     background: url('../../src/img/laptop-iphone-notebook-computer-macbook-work-1046491-pxhere.com.jpg') center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  }*/
+
 
 }
