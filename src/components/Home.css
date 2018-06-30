@@ -5,6 +5,12 @@
   height: auto;
   margin: 0;
   padding: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1280px) {

@@ -1,6 +1,6 @@
 .CeSite {
   padding-top: 0;
-  background: url('../../src/img/pc-1207886_1920.jpg') no-repeat center;
+  background: url('../../src/img/pc-1207886_1920.jpg') no-repeat center fixed;
   background-size: cover;
   height: 300px;
   position: relative;
