@@ -2,7 +2,6 @@
   background: url('../../src/img/laptop-iphone-notebook-computer-macbook-work-1046491-pxhere.com.jpg') no-repeat center fixed;
   background-size: cover;
   width: 100%;
-
   margin: 0;
   padding: 0;
   min-width: 100%;
@@ -19,25 +18,7 @@
 }
 
 @media screen and (max-width: 668px) {
-
-   .background_img {
+  .background_img {
     background-attachment: scroll !important;
   }
-
-  /*body:after{
-    content:"";
-    position:fixed;
-    top:0;
-    height:100vh;
-    left:0;
-    right:0;
-    z-index:-1;
-    background: url('../../src/img/laptop-iphone-notebook-computer-macbook-work-1046491-pxhere.com.jpg') center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }*/
-
-
 }
