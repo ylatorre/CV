@@ -29,6 +29,13 @@ class FormFooter extends React.Component {
         res => this.setState({'flash': res.flash}),
         err => this.setState({'flash': err.flash})
       )
+
+    fetch('http://localhost:5000/auth/send-email', {
+      method: 'POST',
+      headers: new Headers({'Content-Type': 'application/json'
+      }),
+      body: JSON.stringify(this.state)
+    })
   };
 
   render () {
