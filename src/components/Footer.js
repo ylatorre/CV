@@ -3,25 +3,36 @@ import FooterContact from './FooterContact'
 import FormFooter from './FormFooter'
 import './Footer.css'
 
-const Footer = () => {
-  return (
-    <div className="Footer" id="Contact">
+class Footer extends React.Component {
+  state = {email: []};
 
-      <div className="FooterTitle">
-        <h2>Me Contacter</h2>
-      </div>
+  addEmail = (email) => {
+    let odlEmail = this.state.email;
+    email.id = Date.now()
+    let newEmail = [...odlEmail, email]
+    this.setState({email: newEmail})
+  }
 
-      <div className="ContainerFooter">
-        <div className="ContainerFormContact">
-          <FormFooter />
+  render () {
+    return (
+      <div className="Footer" id="Contact">
+
+        <div className="FooterTitle">
+          <h2>Me Contacter</h2>
         </div>
-        <div className="ContainerContact">
-          <FooterContact />
-        </div>
-      </div>
 
-    </div>
-  )
+        <div className="ContainerFooter">
+          <div className="ContainerFormContact">
+            <FormFooter addEmail={this.addEmail}/>
+          </div>
+          <div className="ContainerContact">
+            <FooterContact />
+          </div>
+        </div>
+
+      </div>
+    )
+  }
 }
 
 export default Footer

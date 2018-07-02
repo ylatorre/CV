@@ -2,6 +2,7 @@
   "name": "cv_client_react",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000/",
   "dependencies": {
     "@material-ui/core": "^1.2.1",
     "font-awesome": "^4.7.0",
