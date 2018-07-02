@@ -81,6 +81,9 @@ class FormFooter extends React.Component {
             </div>
           </div>
         </form>
+        <p>
+          {this.state.flash ? JSON.stringify(this.state.flash) : ''}
+        </p>
       </div>
     )
   }
