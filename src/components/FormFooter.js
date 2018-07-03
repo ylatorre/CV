@@ -18,7 +18,7 @@ class FormFooter extends React.Component {
     console.log(this.state)
     this.setState({firts_name: '', last_name: '', email: '', messages: ''})
 
-    fetch('http://localhost:5000/auth/messages', {
+    fetch('https://edouarddelaage-server.herokuapp.com/auth/messages', {
       method: 'POST',
       headers: new Headers({'Content-Type': 'application/json'
       }),
@@ -30,7 +30,7 @@ class FormFooter extends React.Component {
         err => this.setState({'flash': err.flash})
       )
 
-    fetch('http://localhost:5000/auth/send-email', {
+    fetch('https://edouarddelaage-server.herokuapp.com/auth/send-email', {
       method: 'POST',
       headers: new Headers({'Content-Type': 'application/json'
       }),
