@@ -1,14 +1,14 @@
 .MySkills {
-  top: 80px;
+  /* top: 80px; */
   width: 80%;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   background-color: #fff;
 }
 
 .SkillsTitle {
   color: #db5757;
-  margin-top: 80px;
+  margin: 20px 0 20px 0;
 }
 
 .Skils {

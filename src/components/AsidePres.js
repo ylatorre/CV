@@ -1,22 +1,20 @@
 import React from 'react'
 import '../../node_modules/font-awesome/css/font-awesome.min.css'
 import './AsidePres.css'
-import profilpicture from '../img/profilpicture.jpg'
 
 const AsidePres = () => {
   return (
     <div className="MainAside">
 
-      <div className="MainAsidePicture">
+      <div className="ContainerProfilPicture">
         <div className="ProfilPicture">
-          <img className="ImgProfilPicture" src={profilpicture} alt="profilpicture"/>
-        </div>
-        <div className="Name">
-          <h1>Edouard de Laage</h1>
         </div>
       </div>
 
       <div className="MainAsideDesciption">
+        <div className="Name">
+          <h1>Edouard de Laage</h1>
+        </div>
         <div className="Spec">
           <h2>Developpeur Web</h2>
           <p>Javascript / Node JS / React</p>

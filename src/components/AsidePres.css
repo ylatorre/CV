@@ -5,7 +5,19 @@
   border-radius: 10px;
   margin-top: 150px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.MainAside h2 {
+  margin-bottom: 0;
+}
+
+.MainAside a.fa.fa {
+  font-size: 40px;
+}
+
+.MainAside a.fa.fa-linkedin {
+  margin-right: 20px;
 }
 
 .MainAsidePicture {
@@ -17,7 +29,10 @@
 }
 
 .MainAsideDesciption {
-  width: 350px;
+  width: 50%;
+  display:  flex;
+  flex-direction: column;
+  padding: 10px 0px 10px 0;
 }
 
 .Spec {
@@ -49,10 +64,15 @@ a.fa.fa-github {
   color: black;
 }
 
-.ProfilPicture {
-  text-align: center;
-  padding-top: 25px;
-  margin-bottom: 25px;
+.ContainerProfilPicture {
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 0;
+  background: url('../img/profilpicture.jpg') no-repeat center;
+  background-size: auto auto;
+  background-size: cover;
+  position: relative;
 }
 
 .ImgProfilPicture {
@@ -68,6 +88,7 @@ a.fa.fa-github {
 
 h1 {
   color: #fff;
+  margin: 0;
 }
 
 hr {
@@ -79,10 +100,10 @@ hr {
   margin: 0;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 610px) {
   .MainAside {
     height: 35%;
-    width: 70%;
+    width: 100%;
     background-color: rgba(169, 55, 55, 0.7);
     border-radius: 10px;
     margin-top: 50px;
@@ -126,10 +147,77 @@ hr {
     padding-top: 5px;
     margin-bottom: 5px;
   }
+
+  .MainAside a {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1290px) {
   .MainAside {
     margin-top: 80px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .MainAside h2 {
+    font-size: 17px;
+  }
+
+  .MainAside p {
+    font-size: 17px;
+  }
+
+  .MainAside a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+    .MainAside {
+    height: 50%;
+    width: 50%;
+    background-color: rgba(169, 55, 55, 0.7);
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ContainerProfilPicture {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 0;
+    background: url('../img/profilpicture.jpg') no-repeat center;
+    background-size: auto auto;
+    background-size: cover;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .MainAside h2 {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .MainAside p {
+    font-size: 13px;
+  }
+
+  .MainAsideDesciption {
+    width: 100%;
+    margin: auto;
+  }
+
+  .MainAside a {
+    font-size: 15px;
   }
 }
