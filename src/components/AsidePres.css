@@ -6,7 +6,7 @@
   margin-top: 150px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 9px 15px rgba(30,30,30,.5);
+  box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
 }
 
 .MainAside h2 {

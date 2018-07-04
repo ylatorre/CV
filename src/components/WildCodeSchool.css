@@ -48,10 +48,11 @@ h4 {
 .Project {
   border: solid 1px #d4d4d4;
   border-radius: 3px;
-  box-shadow: 0 9px 15px rgba(30,30,30,.5);
+  box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
   height: auto;
   padding: 20px;
   background-color: #fff;
+
   /* font-size: 1em; */
 }
 
@@ -77,6 +78,7 @@ p.ParaProject {
 .DescProject {
   text-align: center;
   padding-bottom: 20px;
+
   /* font-size: 0.9em; */
 }
 
@@ -88,11 +90,12 @@ p.ParaProject {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: solid 1px #d4d4d4;
+  border: solid, 1px, #d4d4d4;
   border-radius: 3px;
-  box-shadow: 0 9px 15px rgba(30,30,30,.5);
+  box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
   height: auto;
   background-color: #fff;
+
   /* font-size: 1em; */
 }
 
@@ -114,7 +117,7 @@ p.ParaProject {
   .Project {
     border: solid 1px #d4d4d4;
     border-radius: 3px;
-    box-shadow: 0 9px 15px rgba(30,30,30,.5);
+    box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
     height: auto;
     background-color: #fff;
     font-size: 1em;
@@ -142,7 +145,7 @@ p.ParaProject {
   .Project {
     border: solid 1px #d4d4d4;
     border-radius: 3px;
-    box-shadow: 0 9px 15px rgba(30,30,30,.5);
+    box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
     height: auto;
     background-color: #fff;
     font-size: 1em;
