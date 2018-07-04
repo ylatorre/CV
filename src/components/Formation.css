@@ -1,0 +1,27 @@
+.ContainerFormation {
+  width: 100%;
+  margin: auto;
+  background-color: #e2e2e2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ParaFormation {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border: solid 1px #d4d4d4;
+  border-radius: 3px;
+  box-shadow: 0 9px 15px rgba(30,30,30,.5);
+  height: auto;
+  background-color: #fff;
+  font-size: 1em;
+}
+
+.FormationTitle {
+  color: #db5757;
+}

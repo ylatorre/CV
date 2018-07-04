@@ -1,6 +1,5 @@
 .ContainerKdo {
   display: flex;
-  padding-bottom: 100px;
 }
 
 .ContainerImgKdo {
@@ -9,12 +8,14 @@
   background: url('../img/red-wine-1004255_1920.jpg') no-repeat center;
   background-size: cover;
   position: relative;
+  box-shadow: 0 9px 15px rgba(30,30,30,.5);
 }
 
 .ContainerDescKdo {
   width: 50%;
   padding-top: 0;
   text-align: right;
+  box-shadow: 0 9px 15px rgba(30,30,30,.5);
 }
 
 .ContentKdo {

@@ -14,8 +14,7 @@ const Nav = (props) => {
             <li><Link to="/#Header">Acceuil</Link></li>
             <li><Link to="/#AboutMe">A Propos</Link></li>
             <li><Link to="/#MySkills">Compétences</Link></li>
-            <li><Link to="/cv">Cv</Link></li>
-            <li><Link to="/#CeSite">Ce site</Link></li>
+            <li><Link to="/cv">CV</Link></li>
             <li><Link to="/#Contact">Contact</Link></li>
           </ul>
         </div>
@@ -32,8 +31,7 @@ const Header = (props) => (
       <Link to="/">Acceuil</Link>
       <Link to="/#AboutMe">A Propos</Link>
       <Link to="/#MySkills">Compétences</Link>
-      <Link to="/cv">Cv</Link>
-      <Link to="/#CeSite">Ce site</Link>
+      <Link to="/cv">CV</Link>
       <Link to="/#Contact">Contact</Link>
     </div>
   </div>
