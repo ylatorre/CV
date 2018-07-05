@@ -74,7 +74,7 @@ class FormFooter extends React.Component {
               <textarea
                 name="Description"
                 id="Description"
-                className="description" rows="11"
+                className="message" rows="11"
                 value={this.state.messages}
                 onChange={ (event) => this.setState({ messages: event.target.value }) }/>
               <Button />
