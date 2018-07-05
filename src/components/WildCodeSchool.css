@@ -13,29 +13,29 @@ h4 {
   margin-bottom: 10px;
 }
 
-.ContainerWildCodeSchool {
+.container-wild-code-shcoll {
   background-color: #e2e2e2;
   text-align: center;
   padding-bottom: 50px;
 }
 
-.ContainerTitle {
+.container-title-wcs {
   width: 80%;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.WCSTitle {
+.wcs-title {
   color: #db5757;
   margin: 0;
 }
 
-.ContainerFormation {
+.container-formation {
   margin-top: 0;
 }
 
-.ContainerProject {
+.container-projet {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -45,7 +45,7 @@ h4 {
   margin-bottom: 50px;
 }
 
-.Project {
+.project {
   border: solid 1px #d4d4d4;
   border-radius: 3px;
   box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
@@ -56,33 +56,29 @@ h4 {
   /* font-size: 1em; */
 }
 
-.ContainerProject h4 {
+.container-projet h4 {
   margin-top: 0;
 }
 
-.Project_3 {
+.project_3 {
   padding: 0;
 }
 
-.Project_1,
-.Project_2,
-.Project_3 {
+.project_1,
+.project_2,
+.project_3 {
   width: 400px;
   text-align: left;
 }
 
-p.ParaProject {
-  /* font-size: 0.9em; */
-}
-
-.DescProject {
+.description-project {
   text-align: center;
   padding-bottom: 20px;
 
   /* font-size: 0.9em; */
 }
 
-.ContainerRecap {
+.container-recap-wcs {
   width: 80%;
   margin: auto;
   margin-bottom: 50px;
@@ -99,12 +95,12 @@ p.ParaProject {
   /* font-size: 1em; */
 }
 
-.ContainerRecap ul {
+.container-recap-wcs ul {
   font-size: 18px;
 }
 
 @media screen and (max-width: 1700px) {
-  .ContainerProject {
+  .container-projet {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -114,7 +110,7 @@ p.ParaProject {
     margin-bottom: 50px;
   }
 
-  .Project {
+  .project {
     border: solid 1px #d4d4d4;
     border-radius: 3px;
     box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
@@ -123,16 +119,16 @@ p.ParaProject {
     font-size: 1em;
   }
 
-  .Project_1,
-  .Project_2,
-  .Project_3 {
+  .project_1,
+  .project_2,
+  .project_3 {
     width: 300px;
     text-align: left;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .ContainerProject {
+  .container-projet {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -142,7 +138,7 @@ p.ParaProject {
     margin-bottom: 50px;
   }
 
-  .Project {
+  .project {
     border: solid 1px #d4d4d4;
     border-radius: 3px;
     box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
@@ -153,9 +149,9 @@ p.ParaProject {
     margin-bottom: 20px;
   }
 
-  .Project_1,
-  .Project_2,
-  .Project_3 {
+  .project_1,
+  .project_2,
+  .project_3 {
     width: 100%;
     text-align: left;
   }

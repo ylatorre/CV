@@ -1,4 +1,4 @@
-.MainAside {
+.container-aside {
   height: 35%;
   width: 40%;
   background-color: rgba(169, 55, 55, 0.7);
@@ -9,32 +9,28 @@
   box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
 }
 
-.MainAside h2 {
+.container-aside h2 {
   margin-bottom: 0;
 }
 
-.MainAside a.fa.fa {
+.container-aside a.fa.fa {
   font-size: 40px;
 }
 
-.MainAside a.fa.fa:hover {
-  font-size: 45px;
+.container-aside a.fa.fa:hover {
+  font-size: 35px;
   transition-duration: 0.2s;
 }
 
-.MainAside a.fa.fa-linkedin {
+.container-aside a.fa.fa-linkedin {
   margin-right: 20px;
-}
-
-.MainAsidePicture {
-  width: 350px;
 }
 
 .Name {
   text-align: center;
 }
 
-.MainAsideDesciption {
+.container-aside-description {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -45,20 +41,18 @@
   text-align: center;
 }
 
-.SocialNetworks {
-  margin: 20px 20px 20px 20px;
-  font-size: 2em;
+.social-networks {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.Contact {
+.contact {
   margin-top: 18px;
   text-align: center;
   color: black;
 }
 
-.ContainerProfilPicture {
+.container-profil-picture {
   width: 50%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -69,13 +63,7 @@
   position: relative;
 }
 
-.ImgProfilPicture {
-  width: 200px;
-  border-radius: 15px;
-  border: solid 2px #fff;
-}
-
-.LinksAside {
+.link-aside {
   color: #fff;
   text-decoration: none;
 }
@@ -90,12 +78,12 @@ hr {
   color: #fff;
 }
 
-.MainAside p {
+.container-aside p {
   margin: 0;
 }
 
 @media screen and (max-width: 610px) {
-  .MainAside {
+  .container-aside {
     height: 35%;
     width: 100%;
     background-color: rgba(169, 55, 55, 0.7);
@@ -105,50 +93,33 @@ hr {
     flex-direction: column;
   }
 
-  .MainAsidePicture {
-    width: 80%;
-    margin: auto;
-    margin-top: 0;
-  }
-
-  .ImgProfilPicture {
-    width: 100px;
-    border-radius: 15px;
-    border: solid 2px #fff;
-  }
-
   h1 {
     font-size: 15px;
     margin: 0;
   }
 
-  .MainAside h2 {
+  .container-aside h2 {
     font-size: 13px;
     margin: 0;
   }
 
-  .MainAside p {
+  .container-aside p {
     font-size: 13px;
   }
 
-  .MainAsideDesciption {
-    width: 80%;
-    margin: auto;
-  }
-
-  .ProfilPicture {
+  .profil-picture {
     text-align: center;
     padding-top: 5px;
     margin-bottom: 5px;
   }
 
-  .MainAside a {
+  .container-aside a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 1290px) {
-  .MainAside {
+  .container-aside {
     margin-top: 80px;
   }
 
@@ -156,21 +127,21 @@ hr {
     font-size: 15px;
   }
 
-  .MainAside h2 {
+  .container-aside h2 {
     font-size: 17px;
   }
 
-  .MainAside p {
+  .container-aside p {
     font-size: 17px;
   }
 
-  .MainAside a {
+  .container-aside a {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 1160px) {
-  .MainAside {
+  .container-aside {
     height: 50%;
     width: 50%;
     background-color: rgba(169, 55, 55, 0.7);
@@ -180,7 +151,7 @@ hr {
     flex-direction: column;
   }
 
-  .ContainerProfilPicture {
+  .container-profil-picture {
     width: 100%;
     height: 50%;
     border-top-left-radius: 10px;
@@ -197,21 +168,21 @@ hr {
     margin: 0;
   }
 
-  .MainAside h2 {
+  .container-aside h2 {
     font-size: 13px;
     margin: 0;
   }
 
-  .MainAside p {
+  .container-aside p {
     font-size: 13px;
   }
 
-  .MainAsideDesciption {
+  .container-aside-description {
     width: 100%;
     margin: auto;
   }
 
-  .MainAside a {
+  .container-aside a {
     font-size: 15px;
   }
 }

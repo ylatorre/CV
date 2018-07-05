@@ -26,7 +26,7 @@ const Nav = (props) => {
 const Header = (props) => (
   <div className="header" style={{ height: props.height, borderBottomWidth: props.borderBottomWidth }}>
     <div className="name">Une passion...</div>
-    <div className="description">Coder vos idées</div>
+    <div className="nav-description">Coder vos idées</div>
     <div className="links">
       <Link to="/">Acceuil</Link>
       <Link to="/#AboutMe">A Propos</Link>

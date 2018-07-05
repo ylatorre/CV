@@ -1,9 +1,9 @@
-.Footer {
+.container-footer {
   height: 400px;
   background-color: #e2e2e2;
 }
 
-.FooterTitle {
+.footer-title {
   color: #db5757;
   height: 50px;
   line-height: 50px;
@@ -12,37 +12,37 @@
   margin-bottom: 30px;
 }
 
-.FooterTitle h2 {
+.footer-title h2 {
   margin: 0;
 }
 
-.ContainerFooter {
+.container-form-footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.ContainerFormContact {
+.container-form {
   width: 660px;
 }
 
-.ContainerContact {
+.container-contact {
   height: 239px;
   padding-top: 50px;
   padding-left: 50px;
 }
 
-.ContainerContact a {
+.container-contact a {
   color: #db5757;
   margin-left: 0;
 }
 
 @media screen and (max-width: 970px) {
-  .Footer {
+  .container-footer {
     height: 700px;
   }
 
-  .ContainerFooter {
+  .container-form-footer {
     display: flex;
     justify-content: stretch;
     flex-direction: column;
@@ -51,14 +51,14 @@
     margin: auto;
   }
 
-  .ContainerContact {
+  .container-contact {
     height: 239px;
     padding-top: 150px;
     padding-left: 0;
     align-self: flex-start;
   }
 
-  .ContainerFormContact {
+  .container-form {
     width: 100%;
   }
 }

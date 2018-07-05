@@ -1,20 +1,20 @@
-.AboutMe {
+.container-about-me {
   width: 100%;
   margin: auto;
   background-color: #e2e2e2;
 }
 
-.ParaAboutMe {
+.container-para-about-me {
   width: 80%;
   margin: auto;
   padding-bottom: 50px;
 }
 
-.CvTitle {
+.cv-title {
   color: #db5757;
 }
 
-.AboutMe a {
+.container-para-about-me a {
   color: #db5757;
   margin: 0;
 }

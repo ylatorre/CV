@@ -40,10 +40,10 @@ class FormFooter extends React.Component {
 
   render () {
     return (
-      <div className="FormFooter">
+      <div>
         <form onSubmit={this.handelSubmit}>
-          <div className="ContainerFormFooter">
-            <div className="ContainerInput">
+          <div className="container-form">
+            <div className="container-input">
               <label htmlFor="FirstName">Prénom</label>
               <input
                 type="text"
@@ -74,7 +74,7 @@ class FormFooter extends React.Component {
               <textarea
                 name="Description"
                 id="Description"
-                className="Description" rows="11"
+                className="description" rows="11"
                 value={this.state.messages}
                 onChange={ (event) => this.setState({ messages: event.target.value }) }/>
               <Button />

@@ -1,8 +1,8 @@
-.ContainerKdo {
+.container-kdo {
   display: flex;
 }
 
-.ContainerImgKdo {
+.container-img-kdo {
   width: 50%;
   padding-top: 0;
   background: url('../img/red-wine-1004255_1920.jpg') no-repeat center;
@@ -11,30 +11,30 @@
   box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
 }
 
-.ContainerDescKdo {
+.container-content-kdo {
   width: 50%;
   padding-top: 0;
   text-align: right;
   box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
 }
 
-.ContentKdo {
+.content-kdo {
   padding-right: 20px;
 }
 
-.KdovinoTitle {
+.kdovino-title {
   color: #db5757;
   margin: 0;
 }
 
 @media screen and (max-width: 900px) {
-  .ContainerKdo {
+  .container-kdo {
     flex-direction: column;
     display: flex;
     padding-top: 80px;
   }
 
-  .ContainerImgKdo {
+  .container-img-kdo {
     width: 100%;
     padding-top: 0;
     background: url('../img/red-wine-1004255_1920.jpg') no-repeat center;
@@ -43,13 +43,13 @@
     position: relative;
   }
 
-  .ContainerDescKdo {
+  .container-content-kdo {
     width: 100%;
     padding-top: 0;
     text-align: left;
   }
 
-  .ContentKdo {
+  .content-kdo {
     padding-left: 20px;
   }
 }

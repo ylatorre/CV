@@ -1,4 +1,4 @@
-.ContainerFormation {
+.container-formation {
   width: 100%;
   margin: auto;
   background-color: #e2e2e2;
@@ -6,7 +6,7 @@
   padding-bottom: 50px;
 }
 
-.ParaFormation {
+.para-formation {
   width: 80%;
   margin: auto;
   margin-top: 50px;
@@ -22,6 +22,6 @@
   font-size: 1em;
 }
 
-.FormationTitle {
+.formation-title {
   color: #db5757;
 }

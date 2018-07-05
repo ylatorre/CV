@@ -3,14 +3,14 @@ import './Citation.css'
 
 const Citation = () => {
   return (
-    <div id="CeSite" className="CeSite">
+    <div className="container-citation-bas">
       <div className="layer">
-        <div className="ParaCeSite">
-          <h2 className="TitleCeSite">Mon profil, vous interesse ?</h2>
+        <div className="container-para-ce-site">
+          <h2 className="title-ce-site">Mon profil, vous intéresse ?</h2>
           <div>
           </div>
-          <p>Vous êtes en forte croissance et rechercher un développeur web junior, passionné et curieu...</p>
-          <p className="contacter">N'hésitez pas a me contacter...</p>
+          <p>Vous êtes en forte croissance et rechercher un développeur web junior, passionné et curieux...</p>
+          <p className="contacter">N'hésitez pas à me contacter...</p>
         </div>
       </div>
     </div>

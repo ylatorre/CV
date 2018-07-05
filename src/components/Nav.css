@@ -13,6 +13,11 @@ body {
   color: #fff;
 }
 
+.nav-description {
+  color: #fff;
+  font-size: 30px;
+}
+
 .navbar-default {
   background-color: #a93737;
 }

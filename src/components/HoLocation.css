@@ -1,8 +1,8 @@
-.ContainerHo {
+.container-ho {
   display: flex;
 }
 
-.ContainerImg {
+.container-img {
   width: 50%;
   padding-top: 0;
   background: url('../img/woncerts-1150042_1920.jpg') no-repeat center;
@@ -10,28 +10,28 @@
   position: relative;
 }
 
-.ContainerDesc {
+.container-content-ho {
   width: 50%;
   padding-top: 0;
 }
 
-.ContentHo {
+.content-ho {
   padding-left: 20px;
 }
 
-.HoTitle {
+.title-ho {
   color: #db5757;
   margin: 0;
 }
 
 @media screen and (max-width: 900px) {
-  .ContainerHo {
+  .container-ho {
     flex-direction: column-reverse;
     display: flex;
     padding-top: 80px;
   }
 
-  .ContainerImg {
+  .container-img {
     width: 100%;
     padding-top: 0;
     background: url('../img/woncerts-1150042_1920.jpg') no-repeat center;
@@ -40,7 +40,7 @@
     position: relative;
   }
 
-  .ContainerDesc {
+  .container-content-ho {
     width: 100%;
     padding-top: 0;
   }

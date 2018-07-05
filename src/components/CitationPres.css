@@ -1,11 +1,11 @@
-.CitationPres {
+.container-citation-pres {
   width: 100%;
   margin: auto;
   line-height: 100px;
   text-align: center;
 }
 
-.TitleCitationPres {
+.title-citation-pres {
   width: 80%;
   font-size: 30px;
   margin: auto;

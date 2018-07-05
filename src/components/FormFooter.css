@@ -6,16 +6,16 @@ form {
   height: 250px;
 }
 
-.ContainerFormFooter {
+.container-form {
   display: flex;
   justify-content: space-between;
 }
 
-.ContainerInput {
+.container-input {
   margin-right: 50px;
 }
 
-.Description {
+.description {
   height: 150px;
 }
 
@@ -63,13 +63,13 @@ button {
 }
 
 @media screen and (max-width: 970px) {
-  .ContainerFormFooter {
+  .container-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .ContainerInput {
+  .container-input {
     margin-right: 0;
   }
 

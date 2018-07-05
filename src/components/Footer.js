@@ -15,17 +15,17 @@ class Footer extends React.Component {
 
   render () {
     return (
-      <div className="Footer" id="Contact">
+      <div className="container-footer" id="Contact">
 
-        <div className="FooterTitle">
+        <div className="footer-title">
           <h2>Me Contacter</h2>
         </div>
 
-        <div className="ContainerFooter">
-          <div className="ContainerFormContact">
+        <div className="container-form-footer">
+          <div className="container-form">
             <FormFooter addEmail={this.addEmail}/>
           </div>
-          <div className="ContainerContact">
+          <div className="container-contact">
             <FooterContact />
           </div>
         </div>

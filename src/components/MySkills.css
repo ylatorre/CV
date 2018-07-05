@@ -1,17 +1,17 @@
-.MySkills {
-  /* top: 80px; */
+.container-my-skills {
   width: 80%;
   margin: auto;
   margin-bottom: 20px;
   background-color: #fff;
+  text-align: center;
 }
 
-.SkillsTitle {
+.skills-title {
   color: #db5757;
   margin: 20px 0 20px 0;
 }
 
-.Skils {
+.skils {
   display: flex;
   justify-content: space-between;
 }
