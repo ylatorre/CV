@@ -35,3 +35,8 @@ a.fa.fa-github {
   height: 20px;
 }
 
+a.fa.fa:hover {
+  font-size: 45px;
+  transition-duration: 0.2s;
+}
+

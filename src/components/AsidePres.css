@@ -17,6 +17,11 @@
   font-size: 40px;
 }
 
+.MainAside a.fa.fa:hover {
+  font-size: 45px;
+  transition-duration: 0.2s;
+}
+
 .MainAside a.fa.fa-linkedin {
   margin-right: 20px;
 }

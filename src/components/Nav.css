@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #a93737;
+  transition-duration: 0.2s;
+}
+
 .navbar-default,
 .navbar-nav li a {
   color: #fff;
