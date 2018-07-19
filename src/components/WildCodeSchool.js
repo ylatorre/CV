@@ -16,7 +16,7 @@ const WildCodeSchool = () => {
         </div>
       </div>
       <div>
-        <div className="container-formation">
+        <div className="container-formation-wcs">
           <p>Le déroulement de la formation se décompose en 3 temps :</p>
         </div>
         <div className="container-projet">

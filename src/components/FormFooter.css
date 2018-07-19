@@ -62,6 +62,15 @@ button {
   margin-top: 10px;
 }
 
+form input.error {
+  border-color: red;
+}
+
+form button:disabled {
+  background-color: #dbf99f;
+  color: #333;
+}
+
 @media screen and (max-width: 970px) {
   .container-form {
     display: flex;

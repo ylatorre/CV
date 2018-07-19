@@ -13,7 +13,7 @@ const Formation = () => {
         <p>2000 - 2003 : IDRAC BTS Action commerciale</p>
         <p>1999 - 2000 : Baccalauréat ES</p>
         <h3>Centres d'intérêts :</h3>
-        <p>Nouvelles téchnologie, photo, footing, cuisine</p>
+        <p>Nouvelles téchnologies, photo, footing, cuisine</p>
       </div>
     </div>
   )

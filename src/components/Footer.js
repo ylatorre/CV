@@ -28,6 +28,7 @@ class Footer extends React.Component {
           <div className="container-contact">
             <FooterContact />
           </div>
+
         </div>
 
       </div>

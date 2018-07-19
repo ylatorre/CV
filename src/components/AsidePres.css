@@ -11,6 +11,7 @@
 
 .container-aside h2 {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .container-aside a.fa.fa {
@@ -34,6 +35,7 @@
   width: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 10px 0 10px 0;
 }
 
@@ -64,6 +66,11 @@
 }
 
 .link-aside {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-aside:hover {
   color: #fff;
   text-decoration: none;
 }

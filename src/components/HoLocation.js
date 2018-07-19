@@ -18,7 +18,7 @@ const HoLocation = () => {
             <ul>
               <li>Développement du CA de 190 000 € à 490 000 €. </li>
               <li>Gestion financière : Gestion de la trésorerie / des factures clients et  fournisseurs / comptabilité et clôtures de bilan.</li>
-              <li>Gestion des RH : Recrutement et gestion de CDD en saison (jusqu’a 7).</li>
+              <li>Gestion des RH : Recrutement et gestion de CDD en saison (jusqu’a 10).</li>
               <li>Gestion de la logistique : Organisation des plannings de montage et
                     démontage. Optimisation des transports. Coordination des équipes de   monteurs.</li>
             </ul>

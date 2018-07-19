@@ -4,7 +4,7 @@ import './CitationPres.css'
 const CitationPres = () => {
   return (
     <div id="CitationPres" className="container-citation-pres">
-      <p className="title-citation-pres">Passionné par Internet, le développement web et ces possibilités infinis...</p>
+      <p className="title-citation-pres">Passionné par Internet, le développement web et ses possibilités infinis...</p>
     </div>
   )
 }

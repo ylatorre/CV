@@ -12,8 +12,8 @@ button {
 }
 
 button:hover {
-  box-shadow: 2px 3px 12px 1px rgba(0, 0, 0, 0.18);
-  transform: scale(1.01);
+  background-color: #a93737;
+  transition-duration: 0.2s;
 }
 
 button:active {
