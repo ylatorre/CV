@@ -9,14 +9,15 @@ class FormFooter extends React.Component {
     last_name: '',
     email: '',
     messages: '',
-    flash: ''
+    flash: '',
+    tel: ''
   };
 
   handelSubmit = (event) => {
     event.preventDefault();
     this.props.addEmail(this.state)
     console.log(this.state)
-    this.setState({firts_name: '', last_name: '', email: '', messages: ''})
+    this.setState({firts_name: '', last_name: '', email: '', messages: '', tel: ''})
 
     fetch('https://edouarddelaage-server.herokuapp.com/auth/messages', {
       method: 'POST',
@@ -60,6 +61,14 @@ class FormFooter extends React.Component {
                 className="LastName"
                 value={this.state.last_name}
                 onChange={ (event) => this.setState({ last_name: event.target.value }) }/>
+              <label htmlFor="LasName">Tel</label>
+              <input
+                type="tel"
+                name="Tel"
+                id="Tel"
+                className="Tel"
+                value={this.state.tel}
+                onChange={ (event) => this.setState({ tel: event.target.value }) }/>
               <label htmlFor="Email">Email</label>
               <input
                 type="email"

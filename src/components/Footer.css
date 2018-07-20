@@ -1,5 +1,5 @@
 .container-footer {
-  height: 400px;
+  height: 500px;
   background-color: #e2e2e2;
 }
 
@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 970px) {
   .container-footer {
-    height: 700px;
+    height: 800px;
   }
 
   .container-form-footer {
@@ -53,7 +53,7 @@
 
   .container-contact {
     height: 239px;
-    padding-top: 150px;
+    padding-top: 260px;
     padding-left: 0;
     align-self: flex-start;
   }
