@@ -26,6 +26,10 @@
   width: 660px;
 }
 
+.status-message {
+  margin-top: 80px;
+}
+
 .container-contact {
   height: 239px;
   padding-top: 50px;
