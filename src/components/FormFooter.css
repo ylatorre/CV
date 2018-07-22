@@ -13,6 +13,7 @@ form {
 
 .container-input {
   margin-right: 50px;
+  border-color: red;
 }
 
 .message {
@@ -33,6 +34,10 @@ label {
 
 input {
   width: 300px;
+}
+
+.help-block {
+  color: #db5757;
 }
 
 textarea {
