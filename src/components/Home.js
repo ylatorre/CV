@@ -9,6 +9,11 @@ import MySkills from './MySkills'
 import EndFooter from './EndFooter'
 import Nav from './Nav'
 
+import ReactGA from 'react-ga'
+ReactGA.initialize('UA-122678741-1')
+ReactGA.pageview(window.location.pathname + window.location.search)
+console.log(ReactGA)
+
 class Home extends Component {
   render () {
     return (
