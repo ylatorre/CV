@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 970px) {
   .container-footer {
-    height: 800px;
+    height: 900px;
   }
 
   .container-form-footer {
@@ -57,7 +57,7 @@
 
   .container-contact {
     height: 239px;
-    padding-top: 180px;
+    padding-top: 222px;
     padding-left: 0;
     align-self: flex-start;
   }
