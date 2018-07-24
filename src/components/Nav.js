@@ -11,7 +11,7 @@ const Nav = (props) => {
       <div className="container">
         <div className="collapse navbar-collapse" id="nav-id">
           <ul className="nav navbar-nav navbar-right">
-            <li><Link to="/#Header">Acceuil</Link></li>
+            <li><Link to="/#Header">Accueil</Link></li>
             <li><Link to="/#AboutMe">A Propos</Link></li>
             <li><Link to="/#MySkills">Compétences</Link></li>
             <li><Link to="/cv">CV</Link></li>
@@ -28,7 +28,7 @@ const Header = (props) => (
     <div className="name">Une passion...</div>
     <div className="nav-description">Coder vos idées</div>
     <div className="links">
-      <Link to="/">Acceuil</Link>
+      <Link to="/">Accueil</Link>
       <Link to="/#AboutMe">A Propos</Link>
       <Link to="/#MySkills">Compétences</Link>
       <Link to="/cv">CV</Link>
