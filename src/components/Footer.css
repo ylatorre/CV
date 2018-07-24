@@ -57,9 +57,13 @@
 
   .container-contact {
     height: 239px;
-    padding-top: 260px;
+    padding-top: 180px;
     padding-left: 0;
     align-self: flex-start;
+  }
+
+  .footer-tel a {
+    font-size: 20px;
   }
 
   .container-form {
