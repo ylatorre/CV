@@ -14,7 +14,6 @@ import ReactGA from 'react-ga'
 window.onload = function () {
   ReactGA.initialize('UA-122678741-1')
   ReactGA.pageview(window.location.pathname + window.location.search)
-  console.log(ReactGA)
 }
 
 class Home extends Component {
